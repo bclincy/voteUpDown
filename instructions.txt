@@ -1,0 +1,28 @@
+INSTRUCTIONS
+--------------------------------------------------
+Something is wrong with article voting! The business unit
+says that sometimes voting just stops working. They need you
+to take a look at see if you can fix it.
+
+Be sure to fix any other problems you find and write down an explanation
+for each change.
+
+The file bonnier_test.php is the code for a voting web service. It is called like this:
+bonnier_test.php?article_id=1&vote_value=1
+
+It will return the markup for a voting widget. Pretend like this markup is included directly onto a page.
+
+RULES
+--------------------------------------------------
+You can't replace any functionality with third party libraries.
+
+Pretend like this code is already in production. Be sure to design
+your changes for deployment to a production environment with existing
+vote data.
+
+INSTALLATION
+--------------------------------------------------
+You will need mysql 5.x and a web server with php 5.x
+
+1) Create the database using the included sql file.
+2) Modify the mysql_connect statement in bonnier_test.php with your mysql login / pass
